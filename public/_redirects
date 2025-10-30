@@ -1,0 +1,8 @@
+# En tu proyecto local
+cd public
+nano _redirects
+```
+
+Pega esta única línea:
+```
+/*    /index.html   200
