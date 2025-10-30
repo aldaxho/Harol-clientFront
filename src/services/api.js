@@ -2,7 +2,8 @@ import axios from 'axios';
 
 // Base URL para desarrollo local
 //const API_BASE_URL = 'http://localhost:8000/api';
-const API_BASE_URL = 'http://68.183.173.197:8000/api';
+//const API_BASE_URL = 'http://68.183.173.197:8000/api';
+const API_BASE_URL = 'https://exaharold.duckdns.org/api';
 // Crear instancia de axios
 const api = axios.create({
   baseURL: API_BASE_URL,
